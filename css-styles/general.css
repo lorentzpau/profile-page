@@ -1,0 +1,19 @@
+body {
+    margin: 0 0 0;
+    height: 2000px;
+    background: linear-gradient(110deg, #f5f7fa, rgb(156, 190, 254))
+}
+
+p {
+    font-family: "Inter", sans-serif;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-areas: 
+        "quote"
+        "header"
+        "social"
+        "description";
+    grid-template-rows: 1fr 2fr 1fr 4fr;
+}

@@ -1,0 +1,20 @@
+.header {
+    background-color: aqua;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    margin-left: 200px;
+    margin-right: 100px;
+}
+
+.profile-picture-div {
+}
+
+.profile-picture {
+    width: 150px;
+    border-radius: 70%;
+
+}
+
+.contact-view {
+    background-color: black;
+}
