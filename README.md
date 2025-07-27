@@ -4,9 +4,10 @@ En este proyecto practicamos los conocimientos iniciales de HTML y CSS creando u
 
 ## Tecnologías utilizadas
 
-- **VSC: ** GitHub, GitKraken.
-- **Lenguajes: ** HTML, CSS.
+- VSC: GitHub, GitKraken.
+- Lenguajes: HTML, CSS.
 
 > Contacto
+
 lorentzpau
 paulorenzopa04@gmail.com
