@@ -1,7 +1,11 @@
 .quote {
+    margin-top: 20px;
+    margin-bottom: 10px;
     display: flex;
-    align-items: end;
+    align-items:end;
     justify-content: center;
+    overflow: visible;
+    position:relative;
     padding-bottom: 10px;
 }
 
@@ -11,5 +15,9 @@
     font-weight: bold;
     letter-spacing: 1px;
     margin-bottom: 0px;
-    text-shadow: 10px 5px 10px rgba(33, 33, 33, 0.4);
+    text-shadow: 10px 5px 10px rgba(0, 0, 0, 0.4);
+    position: relative;
+    transition: transform 0.5s ease-out;
 }
+
+

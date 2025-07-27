@@ -1,20 +1,74 @@
 .header {
-    background-color: aqua;
     display: grid;
     grid-template-columns: 1fr 2fr;
-    margin-left: 200px;
-    margin-right: 100px;
+    position: relative;
+    transition: transform 0.1s ease-out;
 }
 
 .profile-picture-div {
+    margin: 0 auto;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0,0,0,.2), 10px 20px 50px white
 }
 
-.profile-picture {
-    width: 150px;
-    border-radius: 70%;
-
+.profile-picture-div img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
 }
 
 .contact-view {
-    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: top;
+    height: 180px;
+
+
+    border: solid;
+    border-color: rgb(255, 255, 255, 0.2);
+    border-radius: 30px;
+    background: transparent;
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 10px rgba(0,0,0,.2);
+}
+
+
+.name {
+    margin-left: 17px;
+    color: white;
+    font-weight: 700;  
+    font-size: 20px;
+    margin-bottom: 0;
+}
+
+.uni {
+    font-family:  "Public Sans";
+    margin-left: 20px;
+    color: rgb(255, 255, 255);
+    font-weight: 100;
+    font-size: 15px;  
+    margin-top: 10px;
+}
+
+.glow-divider {
+    height: 2px;
+    align-self: center;
+    width: 80%;
+    background-color: white;
+    border-radius: 2px;
+    box-shadow: 0 0 8px white, 0 0 12px #ffffff, 0 0 16px #ffffff;
+    margin-top: 15px;
+}
+
+.contact {
+    margin-top: 20px;
+    margin-left: 20px;
+    font-size: 13px;
+    color: white;
+    text-shadow: 0 0 7px rgba(255, 255, 255, 0.2);
+    font-weight: 100;
 }

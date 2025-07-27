@@ -1,3 +1,41 @@
 .social {
-    background-color: aquamarine;
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
 }
+
+.social img {
+    height: 30px;
+}
+
+.instagram,
+.threads,
+.linkedin {
+  height: 38px;
+  width: 38px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 12px;
+
+  background: rgba(255, 255, 255, 0.05); /* más visible sobre fondos oscuros */
+  border: 1.5px solid rgba(255, 255, 255, 0.15);
+
+  backdrop-filter: blur(12px) saturate(160%);
+  -webkit-backdrop-filter: blur(12px) saturate(160%);
+
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.instagram:hover,
+.threads:hover,
+.linkedin:hover {
+  background: rgba(255, 255, 255, 0.1);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3);
+  transform: scale(1.05);
+}
+
