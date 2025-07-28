@@ -1,0 +1,45 @@
+body {
+    margin: 0 100px 0;
+    height: 1500px;
+    background-image: 
+        linear-gradient(110deg, rgba(0, 0, 0, 0.5), rgba(0,0,0, 0.9)),
+        url('../images/fondo.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    background-color: rgb(52, 52, 52);
+    padding-bottom: 40px;
+}
+
+p {
+    font-family: "Public Sans";
+}
+
+main {
+    flex:1;
+    position: relative;
+    display: grid;
+    grid-template-areas: 
+        "quote"
+        "header"
+        "social"
+        "description";
+    grid-template-rows: 1fr 2fr 1fr 4fr;
+}
+
+body footer {
+  position: absolute;
+  bottom: 0;
+  left: 100px; /* margen izquierdo */
+  width: calc(100% - 200px); /* ancho total menos márgenes */
+  height: 50px; /* altura fija del footer */
+  text-align: center;
+  color: white;
+  font-family: 'Public Sans';
+  font-size: 12px;
+  font-weight: 100;
+  opacity: 0.8;
+  padding: 1rem 0;
+    
+}
