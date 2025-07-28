@@ -2,7 +2,7 @@ window.addEventListener('scroll', () => {
   const scrollY = window.scrollY;
 
   // Multiplicador > 1 para que el texto suba más rápido que scroll
-  const speedMultiplier = 1.3;
+  const speedMultiplier = 1.2;
 
   const header = document.querySelector('.header');
   const social = document.querySelector('.social');
@@ -14,7 +14,7 @@ window.addEventListener('scroll', () => {
 
 window.addEventListener('scroll', () => {
   const scrollY = window.scrollY;
-  const dropLimit = 190;              // Hasta dónde baja
+  const dropLimit = 230;              // Hasta dónde baja
   const speedMultiplier = 1.5;       // Solo para la bajada
 
   const quote = document.querySelector('.quote');

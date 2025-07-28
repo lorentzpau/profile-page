@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <meta charset="UTF-8">
     <title>Landing Page</title>
     <link rel="stylesheet" href="css-styles/general.css">
     <link rel="stylesheet" href="css-styles/header.css">
@@ -15,7 +16,7 @@
   </head>
 
   <body>
-    <div class="grid-container">
+    <main>
       <div class="quote">
         <p class="inner-quote">Here to Create</p>
       </div>
@@ -38,17 +39,40 @@
         </div>
       </div>
       <div class="social">
-        <button class="instagram">
-          <img src="images/icons8-instagram-50.png">
-        </button>
-        <button class="threads">
-          <img src="images/icons8-hilos-50.png">
-        </button>
+        <a class="tooltip" href="https://www.instagram.com/pauu.loz" target="_blank" rel="noopener noreferrer">
+          <button class="instagram">
+            <img src="images/icons8-instagram-50.png">
+          </button>
+          <span class="tooltip-text">Instagram</span>
+        </a>
+        <a class="tooltip" href="https://www.threads.com/@pauu.loz" target="_blank" rel="noopener noreferrer">
+          <button class="threads">
+            <img src="images/icons8-hilos-50.png">
+          </button>
+          <span class="tooltip-text">Threads</span>
+        </a>
+        <a class="tooltip" href="https://www.linkedin.com/in/pau-lorenzo-pareja-504170377" target="_blank" rel="noopener noreferrer">
         <button class="linkedin">
           <img src="images/icons8-linkedin-50.png">
         </button>
+        <span class="tooltip-text">LinkedIn</span>
+        </a>
       </div>
-      <div class="description"></div>
-    </div>
+      <div class="description">
+        <h1>Bienvenid@ a mi espacio</h1>
+        <p>¿Te interesa construir algo, pero no tienes todo resuelto aún? ¿Sientes esa mezcla entre ganas de crear y miedo a no saber por dónde empezar?</p>
+        <p>Si es así, este lugar es para ti.</p>
+        <p>Este es mi primer proyecto front-end. No es perfecto — y no pretende serlo. Es el primer paso de algo más grande: 
+          documentar mi camino mientras aprendo a crear soluciones reales con tecnología. — <em style="font-weight: 100;">Build in Public</em></p>
+        <div class="glow-divider"></div>
+        <h1 class="seguir">¿Por qué seguirme?</h1>
+        <ul>
+          <li>Porque no te traigo una marca perfecta.</li>
+          <br>
+          <li>Te traigo una <strong>evolución real</strong> paso a paso.</li>
+        </ul>
+      </div>
+    </main>
+    <footer>Creado por Pau Lorenzo</footer>
   </body>
 </html>

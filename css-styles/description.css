@@ -1,3 +1,17 @@
 .description {
-    background-color: blueviolet;
+    margin-top: 0px;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-family: "Public Sans";
+}
+
+.description .glow-divider {
+    margin-top: 50px;
+    width: 90%;
+    align-self: center;
+}
+
+.seguir {
+    margin-top: 50px;
 }
