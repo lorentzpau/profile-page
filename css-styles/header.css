@@ -92,6 +92,7 @@
         width: 100%;
         height: auto;
         padding: 10px;
+        margin-left: 0;
     }
 
     .profile-picture-div {
@@ -100,5 +101,5 @@
 
     .profile-picture-div {
     box-shadow: 0 0 10px rgba(0,0,0,.2), 0 20px 50px white
-}
+    }
 }
