@@ -73,3 +73,19 @@
   visibility: visible;
   opacity: 1;
 }
+
+@media (max-width: 768px) {
+  .social {
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    height: 4rem;
+    margin-bottom: 0;
+    padding-bottom: 0;
+  }
+
+  .tooltip .tooltip-text {
+    top: 70%;
+  }
+}
