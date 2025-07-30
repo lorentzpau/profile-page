@@ -16,6 +16,11 @@
     margin-top: 50px;
 }
 
+.description ul {
+    width: 60vw;
+    max-width: 500px;
+}
+
 @media (max-width: 768px) {
     .description {
         padding: 0;
