@@ -81,3 +81,24 @@
 }
 
 
+@media (max-width: 768px) {
+    .header {
+        grid-template-columns: 1fr;
+        align-items: center;
+        justify-items: center;
+    }
+
+    .contact-view {
+        width: 100%;
+        height: auto;
+        padding: 10px;
+    }
+
+    .profile-picture-div {
+        margin-bottom: 2rem;
+    }
+
+    .profile-picture-div {
+    box-shadow: 0 0 10px rgba(0,0,0,.2), 0 20px 50px white
+}
+}

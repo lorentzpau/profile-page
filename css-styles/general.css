@@ -43,3 +43,17 @@ body footer {
   padding: 1rem 0;
     
 }
+
+@media (max-width: 768px) {
+    body footer {
+
+    }
+
+    body {
+        height: 2000px;
+    }
+
+    main {
+        grid-template-rows: auto auto auto auto;
+    }
+}

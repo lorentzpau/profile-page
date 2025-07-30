@@ -12,12 +12,12 @@ window.addEventListener('scroll', () => {
   social.style.transform = `translateY(-${scrollY * speedMultiplier}px)`;
 });
 
-window.addEventListener('scroll', () => {
-  const scrollY = window.scrollY;
-  const dropLimit = 230;              // Hasta dónde baja
-  const speedMultiplier = 1.5;       // Solo para la bajada
 
+window.addEventListener('scroll', () => {
   const quote = document.querySelector('.quote');
+  const scrollY = window.scrollY;
+  const dropLimit = 230;             
+  const speedMultiplier = 1.5;     
 
   // Calculamos cuánto debería bajar como máximo
   const maxDrop = dropLimit * speedMultiplier;
